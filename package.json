@@ -1,0 +1,35 @@
+{
+  "isMKApp": true,
+  "name": "mk-sys-portal",
+  "description": "mk-sys-portal",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": "",
+  "keywords": [
+    "mk",
+    "monkey king",
+    "react",
+    "redux",
+    "mk-js",
+    "mk-command",
+    "mk-sys-portal"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/whatsmk/mk-sys-portal.git"
+  },
+  "bugs": {
+    "url": "https://github.com/whatsmk/mk-sys-portal/issues"
+  },
+  "homepage": "https://github.com/whatsmk/mk-sys-portal#readme",
+  "scripts": {
+    "start": "mk start",
+    "build": "mk build",
+    "pkg": "mk pkg"
+  },
+  "dependencies": {
+    "md5": "*",
+    "mk-command": "*",
+    "mk-sdk": "*"
+  }
+}
