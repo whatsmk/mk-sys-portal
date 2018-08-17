@@ -159,10 +159,10 @@ class action {
     topMenuClick = async (e) => {
         switch (e.key) {
             case 'logout':
-                if (this.component.props.onRedirect && this.config.goAfterLogout) {
+                if (this.component.props.onRedirect && this.config.goAfterSignOut) {
                     this.metaAction.context.set('currentUser', undefined)
                     fetch.clearAccessToken()
-                    this.component.props.onRedirect(this.config.goAfterLogout)
+                    this.component.props.onRedirect(this.config.goAfterSignOut)
                 }
                 break;
             case 'github':
